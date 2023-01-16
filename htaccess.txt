@@ -1,0 +1,8 @@
+# 
+# .htaccess
+# 
+
+ErrorDocument 403 /error-document/403.html
+ErrorDocument 404 /error-document/404.html
+ErrorDocument 500 /error-document/500.html
+

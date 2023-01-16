@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/**
+ * https://ancistrus.de/error/error.css
+ * 
+ * Style sheet for error pages
+ */
+
+@import url(/css/normalize.css);
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	font: 18px "Source Serif Pro", serif;
+	color: #111;
+	background: #eee;
+}
+
+img {
+	display: block;
+	margin: 1.8em auto 1em;
+	width: 5em;
+}
+
+h1 {
+	font-size: 1.8em;
+	font-weight: 400;
+	margin: 0 0 1.5em;
+	text-align: center;
+	padding: 0 .3em;
+}
+
+main, [role*=main] {
+	width: 25em;
+	margin: 0 auto 1em;
+	padding: 0 .5em;
+	max-width: 100%;
+}
+
+main h3 {
+	font: 1.2em "Source Serif Pro", serif;
+	font-weight: 500;
+	margin: 0 0 1em;
+}
+
+main p {
+	margin: 0 0 1em;
+}
