@@ -1,11 +1,13 @@
 @charset "UTF-8";
 /**
- * https://ancistrus.de/error/error.css
+ * error.css
+ *     Part of <https://github.com/malte70/error-document>
  * 
  * Style sheet for error pages
  */
 
-@import url(/css/normalize.css);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500&display=swap');
 
 *, *:before, *:after {
 	box-sizing: border-box;
